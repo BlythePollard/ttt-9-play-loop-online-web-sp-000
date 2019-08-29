@@ -37,8 +37,7 @@ end
 
 # Define your play method below
 
-play(board)
-  board = display_board(board)
+def play(board)
   counter = 1
   while counter < 9
   turn(board)
